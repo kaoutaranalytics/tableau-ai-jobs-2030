@@ -715,54 +715,6 @@
       <simple-id uuid='{C3D4E5F6-A7B8-9012-CDEF-123456789012}' />
     </worksheet>
   </worksheets>
-  <dashboards>
-    <dashboard name='AI Automation Risk Dashboard'>
-      <style />
-      <size maxheight='900' maxwidth='1200' minheight='900' minwidth='1200' sizing-mode='automatic' />
-      <zones>
-        <zone h='900' id='1' type='layout-basic' w='1200' x='0' y='0'>
-          <zone h='40' id='2' param='AI Automation Risk Dashboard' type='title' w='1200' x='0' y='0' />
-          <zone h='440' id='3' name='AI Risk by Country' type='view' w='1200' x='0' y='40'>
-            <zone-filter-map />
-          </zone>
-          <zone h='360' id='4' type='layout-basic' w='1200' x='0' y='480'>
-            <zone h='360' id='5' name='Top 10 Jobs Most at Risk from AI' type='view' w='600' x='0' y='480'>
-              <zone-filter-map />
-            </zone>
-            <zone h='360' id='6' name='Risk by Education' type='view' w='600' x='600' y='480'>
-              <zone-filter-map />
-            </zone>
-          </zone>
-          <zone h='60' id='7' param='Key Insight: AI roles are paradoxically the SAFEST from automation — Data Scientists (0.47) and AI Engineers (0.48) show the lowest risk, while DevOps Engineers face the highest (0.57). Average risk across 3,000 employees: 0.50.' type='text' w='1200' x='0' y='840' />
-        </zone>
-      </zones>
-      <devicelayouts />
-      <simple-id uuid='{A1B2C3D4-E5F6-7890-ABCD-EF1234567891}' />
-    </dashboard>
-    <dashboard name='Salary and Industry Insights'>
-      <style />
-      <size maxheight='900' maxwidth='1200' minheight='900' minwidth='1200' sizing-mode='automatic' />
-      <zones>
-        <zone h='900' id='8' type='layout-basic' w='1200' x='0' y='0'>
-          <zone h='40' id='9' param='Salary and Industry Insights' type='title' w='1200' x='0' y='0' />
-          <zone h='420' id='10' name='Average Salary by Industry' type='view' w='1200' x='0' y='40'>
-            <zone-filter-map />
-          </zone>
-          <zone h='400' id='11' type='layout-basic' w='1200' x='0' y='460'>
-            <zone h='400' id='12' name='Salary by Education' type='view' w='600' x='0' y='460'>
-              <zone-filter-map />
-            </zone>
-            <zone h='400' id='13' name='Industry Overview' type='view' w='600' x='600' y='460'>
-              <zone-filter-map />
-            </zone>
-          </zone>
-          <zone h='60' id='14' param='Key Insight: Finance and Government sectors lead in average salaries. Education level strongly correlates with pay — higher degrees command premium compensation across all industries.' type='text' w='1200' x='0' y='840' />
-        </zone>
-      </zones>
-      <devicelayouts />
-      <simple-id uuid='{A1B2C3D4-E5F6-7890-ABCD-EF1234567892}' />
-    </dashboard>
-  </dashboards>
   <windows source-height='51'>
     <window class='worksheet' name='Top 10 Jobs Most at Risk from AI'>
       <cards>
