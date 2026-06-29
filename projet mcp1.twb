@@ -715,32 +715,6 @@
       <simple-id uuid='{C3D4E5F6-A7B8-9012-CDEF-123456789012}' />
     </worksheet>
   </worksheets>
-  <dashboards>
-    <dashboard name='AI Automation Risk Dashboard'>
-      <style />
-      <size maxheight='900' maxwidth='1200' minheight='900' minwidth='1200' sizing-mode='automatic' />
-      <zones>
-        <zone h='900' id='1' type='layout-basic' w='1200' x='0' y='0'>
-          <zone h='450' id='2' name='AI Risk by Country' w='1200' x='0' y='0' />
-          <zone h='450' id='3' name='Top 10 Jobs Most at Risk from AI' w='600' x='0' y='450' />
-          <zone h='450' id='4' name='Risk by Education' w='600' x='600' y='450' />
-        </zone>
-      </zones>
-      <simple-id uuid='{A1B2C3D4-E5F6-7890-ABCD-EF1234567891}' />
-    </dashboard>
-    <dashboard name='Salary and Industry Insights'>
-      <style />
-      <size maxheight='900' maxwidth='1200' minheight='900' minwidth='1200' sizing-mode='automatic' />
-      <zones>
-        <zone h='900' id='5' type='layout-basic' w='1200' x='0' y='0'>
-          <zone h='450' id='6' name='Average Salary by Industry' w='1200' x='0' y='0' />
-          <zone h='450' id='7' name='Salary by Education' w='600' x='0' y='450' />
-          <zone h='450' id='8' name='Industry Overview' w='600' x='600' y='450' />
-        </zone>
-      </zones>
-      <simple-id uuid='{A1B2C3D4-E5F6-7890-ABCD-EF1234567892}' />
-    </dashboard>
-  </dashboards>
   <windows source-height='51'>
     <window class='worksheet' name='Top 10 Jobs Most at Risk from AI'>
       <cards>
